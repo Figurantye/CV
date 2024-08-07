@@ -1,0 +1,158 @@
+@keyframes scolari{
+    from{
+        height: 25%;
+        width: 10%;
+        background-color: bisque;
+    }
+    
+    to{
+        height: 8%;
+        width: 35%;
+        background-color: rgb(27, 27, 27);
+    }
+}
+
+@keyframes orange {
+    from{
+        color: bisque;
+    }
+
+    to{
+        color: orange;
+    }
+}
+@keyframes blue {
+    from{
+        color: bisque;
+    }
+
+    to{
+        color:  dodgerblue;
+    }
+}
+@keyframes gold {
+    from{
+        color: bisque;
+    }
+
+    to{
+        color: gold;
+    }
+}
+
+body{
+    background-color:rgb(27, 27, 27);
+    color: bisque
+}
+
+p{
+    
+}
+
+img{ 
+    display: flex;
+    width: 20%;
+    height: 15%;
+    border-radius: 500px;
+}
+
+.fotoPessoal h1{
+    display: flex;
+    position: relative;
+    width: 20%;
+}
+
+.fotoPessoal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.escolaridade{
+    position: absolute;
+    top: 60px;
+    height: 25%;
+    width: 10%;
+    left: 0px;
+    background-color: bisque;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.escolaridade{
+    animation-name: scolari;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    height: 10%;
+    width: 35%;
+    background-color: rgb(27, 27, 27);
+
+    #senac1{
+        color: orange;
+    }
+}
+
+.exp{
+    position: absolute;
+    top: 60px;
+    height: 25%;
+    width: 10%;
+    left: 0px;
+    background-color: bisque;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.exp{
+    
+}
+.escolaridade.senac2{
+    animation-name: blue;
+    color: dodgerblue;
+}
+.escolaridade.uniasselvi{
+    animation-name: gold;
+    color: gold;
+}
+
+.hobbies{
+    height: 10%;
+    width: 10%;
+    left: 0px;
+    background-color: bisque;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hobbies:hover{
+    animation-name: scolari;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    height: 10%;
+    width: 35%;
+    background-color: rgb(27, 27, 27);
+}
+
+.redesSociais a{
+    color: bisque;
+}
+
+.redesSociais{
+    height: 10%;
+    width: 10%;
+    left: 0px;
+    background-color: bisque;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+
+.redesSociais:hover{
+    animation-name: scolari;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    height: 10%;
+    width: 35%;
+    background-color: rgb(27, 27, 27);
+}
+
+.scolaridade{
+    position: absolute;
+    top: 10px;
+}
