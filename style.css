@@ -12,7 +12,7 @@
     }
 }
 
-@keyframes orange {
+@keyframes oranger {
     from{
         color: bisque;
     }
@@ -21,7 +21,7 @@
         color: orange;
     }
 }
-@keyframes blue {
+@keyframes bluer {
     from{
         color: bisque;
     }
@@ -30,7 +30,7 @@
         color:  dodgerblue;
     }
 }
-@keyframes gold {
+@keyframes golder {
     from{
         color: bisque;
     }
@@ -66,52 +66,51 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column; 
 }
 
 .escolaridade{
     position: absolute;
     top: 60px;
+    padding-top: -100%;
     height: 25%;
     width: 10%;
     left: 0px;
     background-color: bisque;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.escolaridade{
     animation-name: scolari;
     animation-duration: 4s;
     animation-iteration-count: 1;
     height: 10%;
     width: 35%;
     background-color: rgb(27, 27, 27);
-
-    #senac1{
+    #senac1 {
+        animation-name: oranger;
+        animation-duration: 10s;
         color: orange;
     }
-}
+    #senac2 {
+        animation-name: bluer;
+        animation-duration: 10s;
+        color: dodgerblue;
+    }
 
+    #uniasselvi {
+        animation-name: golder;
+        animation-duration: 10s;
+        color: gold;
+    }
+
+}
 .exp{
+    visibility: hidden;
     position: absolute;
-    top: 60px;
+    top: 300px;
     height: 25%;
     width: 10%;
     left: 0px;
     background-color: bisque;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.exp{
-    
-}
-.escolaridade.senac2{
-    animation-name: blue;
-    color: dodgerblue;
-}
-.escolaridade.uniasselvi{
-    animation-name: gold;
-    color: gold;
 }
 
 .hobbies{
@@ -120,9 +119,6 @@ img{
     left: 0px;
     background-color: bisque;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.hobbies:hover{
     animation-name: scolari;
     animation-duration: 4s;
     animation-iteration-count: 1;
