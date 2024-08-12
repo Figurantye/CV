@@ -91,9 +91,7 @@ body{
 }
 
 .escolaridade{
-    position: absolute;
-    top: 60px;
-    padding-top: -100%;
+    position: sticky;
     left: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     animation-name: scolari;
@@ -123,7 +121,6 @@ body{
 }
 
 .xp{
-    position: absolute;
     top: 200px;
     left: 125px;
 }
@@ -183,7 +180,6 @@ body{
 }
 
 .scolaridade{
-    position: absolute;
     top: 10px;
     left:200px;
 }
