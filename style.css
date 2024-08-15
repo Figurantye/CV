@@ -61,14 +61,8 @@
     }
 }
 
-@keyframes rangeRover{
-    from{
-        background-color: bisque;
-    }
-
-    to{
-        background-color: rgb(27, 27, 27);
-    }
+p{
+    text-align: center;
 }
 
 body{
@@ -101,35 +95,36 @@ body{
     text-align: center;
     #senac1 {
         animation-name: oranger;
-        animation-duration: 10s;
+        animation-duration: 3s;
         color: orange;
     }
     #senac2 {
         animation-name: bluer;
-        animation-duration: 10s;
+        animation-duration: 3s;
         color: dodgerblue;
     }
 
     #uniasselvi {
         animation-name: golder;
-        animation-duration: 10s;
+        animation-duration: 3s;
         color: gold;
     }
 
 }
 
 .exp{
-    height: 50%;
-    width: 70%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(27, 27, 27);
     text-align: center;
-    background-color: bisque;
+    #clamor {
+            animation-name: golder;
+            animation-duration: 3s;
+            color: gold;
+        }
 }
 
-.exp:hover{
-    animation-name: rangeRover;
-    background-color: rgb(27, 27, 27);
-    animation-duration: 1s;
+.xp{
+    text-align: center;
 }
 
 .hobbies{
